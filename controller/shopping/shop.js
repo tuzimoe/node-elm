@@ -36,8 +36,6 @@ class Shop extends AddressComponent{
 					throw new Error('必须填写商店地址');
 				}else if(!fields.phone){
 					throw new Error('必须填写联系电话');
-				}else if(!fields.latitude || !fields.longitude){
-					throw new Error('商店位置信息错误');
 				}else if(!fields.image_path){
 					throw new Error('必须上传商铺图片');
 				}else if(!fields.category){
